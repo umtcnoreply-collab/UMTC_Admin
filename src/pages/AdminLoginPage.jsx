@@ -11,7 +11,7 @@ function AdminLoginPage({ username, password, loading, onUsernameChange, onPassw
             type="email"
             value={username}
             onChange={(event) => onUsernameChange(event.target.value)}
-            placeholder="admin@umtc.com"
+            placeholder="example@gmail.com"
             required
           />
         </label>
