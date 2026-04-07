@@ -8,8 +8,8 @@ import { apiRequest } from './config/api';
 const STORAGE_KEY = 'umtc_admin_token';
 
 function App() {
-  const [username, setUsername] = useState('admin@umtc.com');
-  const [password, setPassword] = useState('UMTC@7438#');
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
   const [token, setToken] = useState(localStorage.getItem(STORAGE_KEY) || '');
   const [registrationNumber, setRegistrationNumber] = useState('');
   const [candidate, setCandidate] = useState(null);
