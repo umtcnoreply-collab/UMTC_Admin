@@ -6,6 +6,7 @@ export const EXAM_CENTERS = [
   'Jammu (Jammu & Kashmir)',
   'Nagpur (Maharashtra)',
   'Nashik (Maharashtra)',
+  'Patna (Bihar)',
   'Pune (Maharashtra)',
   'Vijaywada (Andhra Pradesh)',
   'Warangal (Telangana)',
