@@ -1,4 +1,4 @@
-const rawApiBase = process.env.REACT_APP_API_BASE_URL || 'https://api.umtcapply.com';
+const rawApiBase = process.env.REACT_APP_API_BASE_URL || 'http://api.umtcapply.com';
 export const API_BASE = rawApiBase.replace(/\/$/, '');
 const rawFallbackBase = process.env.REACT_APP_API_FALLBACK_URL || '';
 const API_FALLBACK_BASE = rawFallbackBase.replace(/\/$/, '');
