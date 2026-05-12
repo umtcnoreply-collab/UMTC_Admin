@@ -3,7 +3,7 @@ function AdminLoginPage({ username, password, loading, onUsernameChange, onPassw
     <section className="card narrow">
       <h2>Admin Login</h2>
       <p className="muted">Sign in to search candidates and update exam center details.</p>
-
+{/* form */}
       <form className="grid" onSubmit={onSubmit}>
         <label>
           Username
